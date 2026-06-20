@@ -9,7 +9,8 @@ interface Resume {
   id: string;
   companyName?: string;
   jobTitle?: string;
-  imagePath: string;
+  // imagePath: string;
+  imageFile: string;   
   resumePath: string;
   feedback: Feedback;
 }
