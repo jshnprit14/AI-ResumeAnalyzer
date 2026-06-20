@@ -4,7 +4,7 @@ import { resumes } from "../../constants";
 import ResumeCard from "~/components/ResumeCard";
 import { useEffect } from "react";
 import { useNavigate } from "react-router";
-import { usePuterStore } from "../../lib/putter";
+import { usePuterStore } from "../lib/putter";
 
 export function meta({}: Route.MetaArgs) {
   return [
