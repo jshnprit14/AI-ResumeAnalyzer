@@ -37,16 +37,7 @@ export default function Home() {
     }
     loadResumes()
   },[])
-  // useEffect(()=>{
-  //   const loadResume=async()=>{
-  //     const blob=await fs.read(resume.imagePath)
-  //     if(!blob) return
-  //     let url=URL.createObjectURL(blob)
-  //     setResumeUrl(url)
-  //   }
-  //   loadResume()
-  // },[resume.imagePath])
-
+  
   return (
     <main className="bg-[url('/images/bg-main.svg')] bg-cover">
       <Navbar />
