@@ -15,10 +15,6 @@ const Auth = () => {
     if( auth.isAuthenticated) navigate(next);
   },[auth.isAuthenticated,next])
 
-  // useEffect(()=>{
-  //   if(!isLoading && auth.isAuthenticated) navigate(next);
-  // },[auth.isAuthenticated,isLoading,next])
-
   return (
   <main className="bg-[url('/images/bg-main.svg')] bg-cover min-h-screen flex items-center justify-center">
     <div className="gradient-border shadow-lg">
